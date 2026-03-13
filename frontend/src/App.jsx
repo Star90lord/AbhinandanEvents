@@ -5,9 +5,10 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 // Pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import EventDetail from "./Pages/EventDetail";
 
 // Authentication
 import Login from "./auth_components/Login";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/client-dashboard" element={<ClientDashboard />} />
           <Route path="/planner-dashboard" element={<PlannerDashboard />} />
           <Route path="/admin-dashboard" element={<AdminDashboard />} />
+          <Route path="/events/:slug" element={<EventDetail />} />
 
         </Routes>
 

@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 /* Global Styles */
 
 body{
-background:#0f172a;
+background:radial-gradient(120% 120% at 10% 20%, #17233a 0, #0b1223 40%, #050915 100%);
 color:#e2e8f0;
-font-family: 'Inter', sans-serif;
+font-family:'Space Grotesk','Segoe UI',sans-serif;
 margin:0;
 padding:0;
+line-height:1.6;
 }
 
 /* Container spacing */
