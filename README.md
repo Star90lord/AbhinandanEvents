@@ -1,8 +1,5 @@
-Here’s a **clean, professional, recruiter-ready README.md** you can directly use for your project. It’s structured like real production projects on GitHub 👇
 
----
-
-# 🎉 Abhinandan Events
+#  Abhinandan Events
 
 ### Event Planner & Management Platform
 
@@ -10,7 +7,7 @@ Here’s a **clean, professional, recruiter-ready README.md** you can directly u
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **Abhinandan Events** is designed to simplify the event planning process by providing a centralized platform where:
 
@@ -22,7 +19,7 @@ This platform ensures smooth coordination between all stakeholders involved in e
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Planning events manually is:
 
@@ -36,9 +33,9 @@ Abhinandan Events digitizes the entire workflow — from vendor discovery to boo
 
 ---
 
-## ✨ Features
+##  Features
 
-### 👤 User Features
+###  User Features
 
 * Register & Login (JWT/Auth)
 * Create & manage events
@@ -49,7 +46,7 @@ Abhinandan Events digitizes the entire workflow — from vendor discovery to boo
 
 ---
 
-### 🛠️ Vendor Features
+###  Vendor Features
 
 * Vendor registration & profile creation
 * List services with pricing
@@ -59,7 +56,7 @@ Abhinandan Events digitizes the entire workflow — from vendor discovery to boo
 
 ---
 
-### 🛡️ Admin Features
+###  Admin Features
 
 * Manage users & vendors
 * Approve vendor registrations
@@ -225,15 +222,15 @@ DELETE /api/admin/vendor/:id
 
 > Add your actual images inside `/docs` folder and link like below
 
-### 🏠 Homepage
+###  Homepage
 
 ![Homepage](docs/homepage.png)
 
-### 📊 Dashboard
+###  Dashboard
 
 ![Dashboard](docs/dashboard.png)
 
-### 🛍️ Vendor Listing
+###  Vendor Listing
 
 ![Vendors](docs/vendors.png)
 
@@ -241,7 +238,7 @@ DELETE /api/admin/vendor/:id
 
 ## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/abhinandan-events.git
@@ -250,7 +247,7 @@ cd abhinandan-events
 
 ---
 
-### 2️⃣ Backend Setup
+### 2️ Backend Setup
 
 ```bash
 cd server
@@ -260,7 +257,7 @@ npm start
 
 ---
 
-### 3️⃣ Frontend Setup
+### 3️ Frontend Setup
 
 ```bash
 cd client
@@ -270,7 +267,7 @@ npm start
 
 ---
 
-### 4️⃣ Environment Variables (.env)
+### 4️ Environment Variables (.env)
 
 ```env
 PORT=5000
@@ -280,14 +277,14 @@ JWT_SECRET=your_secret_key
 
 ---
 
-## 🌍 Deployment Links
+##  Deployment Links
 
 * Frontend: [https://your-frontend-link.com](https://your-frontend-link.com)
 * Backend API: [https://your-backend-link.com](https://your-backend-link.com)
 
 ---
 
-## 🧪 Future Improvements
+##  Future Improvements
 
 * Payment Integration (Stripe/Razorpay)
 * Real-time chat (Socket.io)
@@ -297,7 +294,7 @@ JWT_SECRET=your_secret_key
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 Contributions are welcome!
 
@@ -307,30 +304,30 @@ Fork → Create Branch → Commit → Push → Pull Request
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the **MIT License**
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Abhinandan Events Platform**
 Developed by: *Your Name*
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project:
 
-* ⭐ Star this repo
-* 🍴 Fork it
-* 📢 Share it
+* Star this repo
+* Fork it
+* Share it
 
 ---
 
-## 🔥 Final Reality Check (Important)
+## Final Reality Check (Important)
 
 This README is strong enough for **internship-level projects**, but what will actually matter:
 
@@ -341,10 +338,3 @@ This README is strong enough for **internship-level projects**, but what will ac
 
 If your project is just UI + dummy backend → recruiters will ignore it.
 
----
-
-If you want next step, I can:
-
-* Turn this into a **resume-level project description**
-* Help you build **actual backend code (controllers, routes, auth)**
-* Or design **MongoDB schema professionally (production level)**
